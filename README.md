@@ -158,4 +158,4 @@ Github: https://github.com/AnZlycdy/Stroke-Prediction-Using-SHAP
 
 ## Disclaimer
 
-This project is developed for academic and educational purposes only and **NOT** be used for any professional medical diagnosis or clinical decision-making..
+This project is developed for academic and educational purposes only and **NOT** be used for any professional medical diagnosis or clinical decision-making.
