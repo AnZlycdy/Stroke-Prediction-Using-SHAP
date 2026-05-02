@@ -136,7 +136,7 @@ Future improvements for this project may include:
 
 ---
 
-# Running the Application
+## Running the Application
 
 Run the Streamlit application:
 
