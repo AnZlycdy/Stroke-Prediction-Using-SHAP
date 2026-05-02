@@ -1,4 +1,4 @@
-# 🧠 Explainable AI for Stroke Risk Prediction Using SHAP
+# Explainable AI for Stroke Risk Prediction Using SHAP
 
 An Explainable Artificial Intelligence (XAI) based healthcare application for predicting stroke risk using Machine Learning and SHAP explainability.
 
@@ -6,7 +6,7 @@ This MSc Research Project was developed as part of the **MSc Computer Science an
 
 ---
 
-# 📌 Project Overview
+## Project Overview
 
 Stroke is one of the leading causes of death and long-term disability worldwide. Early prediction of stroke risk can support preventive healthcare interventions and improve patient outcomes.
 
@@ -33,19 +33,20 @@ The project also integrates SHAP explainability to help users and healthcare pro
 
 ---
 
-# 🚀 Features
+## Research Objectives
 
-✅ Stroke Risk Prediction using Machine Learning  
-✅ Interactive Streamlit User Interface  
-✅ SHAP Waterfall Plot Explanations  
-✅ SHAP Feature Importance Visualisation  
-✅ Patient Risk Categorisation (Low / Moderate / High)  
-✅ Real-Time Prediction Probability  
-✅ Explainable Healthcare AI Framework
+The objectives of this project were to:
+
+- Develop an accurate stroke prediction system
+- Compare multiple machine learning models
+- Improve transparency using SHAP explainability
+- Support trustworthy healthcare AI
+- Analyse feature importance in stroke prediction
 
 ---
 
-# 🧠 Machine Learning Models Used
+
+## Machine Learning Models Used
 
 The project compares multiple machine learning approaches including:
 
@@ -53,16 +54,23 @@ The project compares multiple machine learning approaches including:
 - Random Forest
 - XGBoost
 
-The final deployed model was selected based on:
+---
 
+## Evaluation Metrics
+
+The models were evaluated using:
+
+- Accuracy
+- Precision
 - Recall
+- F1-score
 - ROC-AUC
-- Explainability
-- Clinical interpretability
+
+Healthcare-focused metrics such as Recall and ROC-AUC were prioritised because false negatives in stroke prediction can be clinically dangerous.
 
 ---
 
-# 📊 Explainable AI (XAI)
+## Explainable AI (XAI)
 
 This project integrates **SHAP (SHapley Additive exPlanations)** to improve transparency and interpretability of healthcare predictions.
 
@@ -72,15 +80,9 @@ SHAP helps explain:
 - how each feature contributes to risk,
 - and why a patient is classified as high or low risk.
 
-The application generates:
-
-- SHAP Waterfall Plots
-- SHAP Bar Plots
-- Feature Contribution Analysis
-
 ---
 
-# 🖥️ Streamlit Application
+# Streamlit Application
 
 The Streamlit application allows users to:
 
@@ -93,7 +95,8 @@ The Streamlit application allows users to:
 
 # 📂 Project Structure
 
-```text
+```
+Stroke-Prediction-Using-SHAP
 ├── app.py
 ├── Master_Project.ipynb
 ├── model.pkl
@@ -107,7 +110,7 @@ The Streamlit application allows users to:
 
 ---
 
-# ⚙️ Technologies Used
+# Technologies Used
 
 | Technology   | Purpose                   |
 | ------------ | ------------------------- |
@@ -123,7 +126,21 @@ The Streamlit application allows users to:
 
 ---
 
-# ▶️ Running the Application
+# 🚀 Future Work
+
+Future improvements for this project may include:
+
+- Using larger real-world clinical datasets
+- Exploring deep learning models for stroke prediction
+- Comparing SHAP with other XAI techniques such as LIME
+- Implementing advanced imbalance handling methods like SMOTE
+- Integrating the system with Electronic Health Records (EHRs)
+- Evaluating fairness and bias across demographic groups
+- Developing a real-time clinical decision support application
+
+---
+
+# Running the Application
 
 Run the Streamlit application:
 
@@ -131,100 +148,18 @@ Run the Streamlit application:
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-The application will open in your browser.
-
 ---
 
-# 📈 Dataset
-
-Dataset used:
-
-- Stroke Prediction Dataset (Kaggle)
-
-Features include:
-
-- Gender
-- Age
-- Hypertension
-- Heart Disease
-- Average Glucose Level
-- BMI
-- Smoking Status
-- Residence Type
-- Work Type
-
----
-
-# 📌 Research Objectives
-
-The objectives of this project were to:
-
-- Develop an accurate stroke prediction system
-- Compare multiple machine learning models
-- Improve transparency using SHAP explainability
-- Support trustworthy healthcare AI
-- Analyse feature importance in stroke prediction
-
----
-
-# 📊 Evaluation Metrics
-
-The models were evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
-
-Healthcare-focused metrics such as Recall and ROC-AUC were prioritised because false negatives in stroke prediction can be clinically dangerous.
-
----
-
-# 🔍 Example SHAP Outputs
-
-The system provides:
-
-- SHAP Waterfall Plot
-- SHAP Bar Plot
-- Feature Importance Analysis
-
-These explainability techniques improve clinician trust and transparency in AI-assisted healthcare systems.
-
----
-
-# ⚠️ Disclaimer
-
-This project was developed for:
-
-- educational,
-- academic,
-- and research purposes only.
-
-It should **NOT** be used as a substitute for professional medical diagnosis or clinical decision-making.
-
----
-
-# 📚 Research Contribution
-
-This project contributes toward:
-
-- Explainable Artificial Intelligence in healthcare
-- Transparent machine learning systems
-- Stroke prediction research
-- Trustworthy AI frameworks
-
----
-
-# 👩‍💻 Author
+# Author
 
 **Anjali Chaudhary**  
-MSc Computer Science  
-Ulster University
+MSc Computer Science and Technlogy 
+Ulster University, United Kingdom  
+
+Github: https://github.com/AnZlycdy/Stroke-Prediction-Using-SHAP
 
 ---
 
-# 📜 License
+# Disclaimer
 
-This project is intended for academic and educational purposes.
+This project is developed for academic and educational purposes only and **not** be used for any professional medical diagnosis or clinical decision-making..
