@@ -82,7 +82,7 @@ SHAP helps explain:
 
 ---
 
-# Streamlit Application
+## Streamlit Application
 
 The Streamlit application allows users to:
 
@@ -93,7 +93,7 @@ The Streamlit application allows users to:
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
 ```
 Stroke-Prediction-Using-SHAP
@@ -110,7 +110,7 @@ Stroke-Prediction-Using-SHAP
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 | Technology   | Purpose                   |
 | ------------ | ------------------------- |
@@ -126,17 +126,13 @@ Stroke-Prediction-Using-SHAP
 
 ---
 
-# 🚀 Future Work
+## Future Work
 
 Future improvements for this project may include:
 
 - Using larger real-world clinical datasets
 - Exploring deep learning models for stroke prediction
 - Comparing SHAP with other XAI techniques such as LIME
-- Implementing advanced imbalance handling methods like SMOTE
-- Integrating the system with Electronic Health Records (EHRs)
-- Evaluating fairness and bias across demographic groups
-- Developing a real-time clinical decision support application
 
 ---
 
@@ -150,16 +146,16 @@ streamlit run app.py
 ```
 ---
 
-# Author
+## Author
 
 **Anjali Chaudhary**  
-MSc Computer Science and Technlogy 
+MSc Computer Science and Technlogy  
 Ulster University, United Kingdom  
 
 Github: https://github.com/AnZlycdy/Stroke-Prediction-Using-SHAP
 
 ---
 
-# Disclaimer
+## Disclaimer
 
-This project is developed for academic and educational purposes only and **not** be used for any professional medical diagnosis or clinical decision-making..
+This project is developed for academic and educational purposes only and **NOT** be used for any professional medical diagnosis or clinical decision-making..
